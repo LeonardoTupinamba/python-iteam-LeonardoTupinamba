@@ -1,13 +1,13 @@
 # Explicação — Desafio 01
 
-**Aluno:** _(seu nome)_  
-**Data:** _(data)_
+**Aluno:** _(Leonardo Tupinambá)_  
+**Data:** _(18/05/2026)_
 
 ---
 
 ## O que meu programa faz
 
-_(Descreva em suas palavras o que cada parte do código faz. Não copie o enunciado — explique como você pensou na solução.)_
+\_O meu programa recebe o nome do usuário, o ano de nascimento e imprime na tela o nome e a idade, em seguida pede pra o usuário digitar seus hobbies e no final imprime todos os hobbies cadastrados.
 
 ---
 
@@ -15,10 +15,10 @@ _(Descreva em suas palavras o que cada parte do código faz. Não copie o enunci
 
 > Por que é necessário converter o resultado do `input()` antes de calcular a idade? O que acontece se não converter?
 
-_(Sua resposta aqui — use suas próprias palavras. Pode incluir exemplos de código se ajudar a explicar.)_
+_(A função input() sempre retorna uma string — independentemente do que o usuário digita. Isso significa que mesmo se digitar 1978, o Python recebe "1978"(texto), não o número 1978.)_ Logo, essa conversão é necessária para que o calculo seja realizado.
 
 ---
 
 ## Dificuldades encontradas
 
-_(Opcional: o que foi difícil? O que você pesquisou para resolver?)_
+_(Foi díficil encontrar uma forma de digitar e imprimir os hobbies em seguida)_
