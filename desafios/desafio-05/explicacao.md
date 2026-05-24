@@ -1,13 +1,13 @@
 # Explicação — Desafio 05 — Gerenciador de Compras
 
-**Aluno:** _(seu nome)_
-**Data:** _(data)_
+**Aluno:** _(Leonardo Tupinambá)_
+**Data:** _(24/05/2026)_
 
 ---
 
 ## O que meu programa faz
 
-_(Descreva em suas palavras o que cada parte do código faz.)_
+Pede pra digitar o nome do produto e vai adicionando na lista até digitar "fim", e quando isso acontece, ele mostra a lista dos produtos digitados.
 
 ---
 
@@ -15,10 +15,18 @@ _(Descreva em suas palavras o que cada parte do código faz.)_
 
 > Por que usamos uma **lista** e não uma **tupla** para essa lista de compras? O que mudaria no comportamento do programa se tentássemos usar tupla?
 
-_(Sua resposta aqui — use suas próprias palavras.)_
+Diferença prática entre lista e tupla
+Lista (list): é mutável, ou seja, podemos adicionar, remover ou alterar elementos depois de criada.
+
+Tupla (tuple): é imutável, não permite mudanças após a criação.
+
+No caso da lista de compras:
+Usamos lista porque queremos adicionar produtos dinamicamente conforme o usuário digita.
+
+O método .append() só funciona em listas, já que elas aceitam modificações.
 
 ---
 
 ## Dificuldades encontradas
 
-_(Opcional: o que foi difícil? O que você pesquisou para resolver?)_
+Desenvolver o código, entender a diferença entre lista e tupla e qual usar.
