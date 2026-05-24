@@ -1,6 +1,6 @@
 Lista 01 — Questão 10: Análise Crítica de Código
-Aluno: (seu nome)
-Data:  (data)
+Aluno: (Leonardo Tupinambá)
+Data:  (24/05/2026)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ENUNCIADO:
@@ -19,5 +19,19 @@ Dica: há um problema em: (1) definição da função, (2) como o loop é escrit
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+1. Definição da função:
+   Problema: usar parâmetro padrão "alunos=[]".
+   Por quê é um problema: listas mutáveis como valor padrão são compartilhadas entre chamadas da função, podendo acumular dados indevidamente.
+   Correção: usar "alunos" sem valor padrão ou usar None e criar lista dentro da função.
+
+2. Estrutura do loop:
+   Problema: "for i in range(len(alunos))" e depois acessar "alunos[i]".
+   Por quê é um problema: é menos legível e mais sujeito a erros. Em Python é mais claro iterar diretamente sobre os elementos.
+   Correção: "for aluno in alunos".
+
+3. Construção da lista:
+   Problema: "aprovados = aprovados + [alunos[i]['nome']]".
+   Por quê é um problema: cria uma nova lista a cada iteração, menos eficiente e desnecessário.
+   Correção: usar "aprovados.append(aluno['nome'])", que adiciona diretamente na lista existente.
+
 

@@ -1,6 +1,6 @@
 Lista 01 — Questão 09: EAFP vs LBYL
-Aluno: (seu nome)
-Data:  (data)
+Aluno: (Leonardo Tupinambá)
+Data:  (24/05/2026)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ENUNCIADO:
@@ -17,5 +17,16 @@ Em q09_resposta.txt: explique o que significa EAFP e qual versão é mais Pythô
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+EAFP significa "Easier to Ask Forgiveness than Permission" 
+(mais fácil pedir perdão do que permissão). 
+
+No estilo EAFP, tentamos executar a operação diretamente 
+e tratamos a exceção caso ocorra, em vez de verificar 
+antecipadamente todas as condições possíveis.
+
+A versão com try/except é considerada mais Pythônica, 
+porque segue a filosofia da linguagem: escrever código 
+direto e claro, confiando no tratamento de exceções 
+para lidar com casos inesperados.
+
 

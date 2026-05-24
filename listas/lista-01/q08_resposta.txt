@@ -1,6 +1,6 @@
 Lista 01 — Questão 08: is vs ==
-Aluno: (seu nome)
-Data:  (data)
+Aluno: (Leonardo Tupinambá)
+Data:  (24/05/2026)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ENUNCIADO:
@@ -11,5 +11,10 @@ Em que situação é correto usar is em código profissional?
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+a = [1, 2, 3]
+b = [1, 2, 3]
+
+print(a == b)   # True → porque os conteúdos são iguais
+print(a is b)   # False → porque são listas diferentes na memória
+
 

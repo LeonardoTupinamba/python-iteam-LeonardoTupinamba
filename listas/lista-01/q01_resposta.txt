@@ -1,6 +1,6 @@
 Lista 01 — Questão 01: Modelo de Memória
-Aluno: (seu nome)
-Data:  (data)
+Aluno: (Leonardo Tupinambá)
+Data:  (24/05/2026)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ENUNCIADO:
@@ -19,5 +19,24 @@ Código:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+a - É uma lista.
 
+b = a - Não cria uma nova lista, paenas aponta b para a.
+
+b.append(40): como b e a estão apontando para o mesmo objeto, ao adicionar 40 em b também insere em a.
+
+c = a.copy(): cria uma cópia independente da lista.
+
+c.append(99): modifica apenas c, sem afetar a ou b.
+
+Portanto, modificar b afeta a porque ambos são duas variáveis apontando para o mesmo objeto na memória. Já c é uma cópia, então alterações nela não influenciam a.
+
+Logo: 
+print("a =", a)
+print("b =", b)
+print("c =", c)
+
+Saída:
+a = [10, 20, 30, 40]
+b = [10, 20, 30, 40]
+c = [10, 20, 30, 40, 99]

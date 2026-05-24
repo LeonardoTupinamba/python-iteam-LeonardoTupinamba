@@ -1,6 +1,6 @@
 Lista 01 — Questão 02: Tipos e Conversão
-Aluno: (seu nome)
-Data:  (data)
+Aluno: (Leonardo Tupinambá)
+Data:  (24/05/2026)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ENUNCIADO:
@@ -17,5 +17,10 @@ Responda por raciocínio ANTES de executar. Depois confirme no REPL.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+  print(type(10 / 2))         # tipo: float   valor: 5
+  print(type(10 // 2))        # tipo: inteiro   valor: 5
+  print(int(3.9))             # tipo: inteiro   valor: 3
+  print(bool([]))             # tipo: booleano   valor: False
+  print(bool("False"))       # tipo: booleano   valor: True
+  print(str(True) == "True") # tipo: String   valor: True
 

@@ -1,6 +1,6 @@
 # Lista 01 — Questão 10: Análise Crítica de Código
-# Aluno: (seu nome)
-# Data:  (data)
+# Aluno: (Leonardo Tupinambá)
+# Data:  (24/05/2026)
 
 # ── Enunciado ───────────────────────────────────────────────────────────────
 # Em q10.py: reescreva a função corrigindo os 3 problemas encontrados.
@@ -16,3 +16,11 @@
 # Dica: há um problema em: (1) definição da função, (2) como o loop é escrito, (3) como a lista é construída.
 
 # ── Sua solução abaixo ──────────────────────────────────────────────────────
+def processar_alunos(alunos):
+    aprovados = []
+    # ✅ Problema 2: usar for direto na lista em vez de range(len(...))
+    for aluno in alunos:
+        if aluno['nota'] >= 7.0:
+            # ✅ Problema 3: usar append em vez de recriar lista
+            aprovados.append(aluno['nome'])
+    print(aprovados)
