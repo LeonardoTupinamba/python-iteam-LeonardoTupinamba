@@ -1,6 +1,6 @@
 Lista 02 — Questão 09: Encapsulamento e Propriedades
-Aluno: (seu nome)
-Data:  (data)
+Aluno: (Leonardo Tupinambá)
+Data:  (28/05/2026)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ENUNCIADO:
@@ -16,4 +16,13 @@ Em q09_resposta.txt: explique a diferença entre _atributo e __atributo em Pytho
 SUA RESPOSTA:
 
 (escreva aqui com suas próprias palavras)
+Em Python, a diferença entre _atributo e __atributo está na forma como o nome é tratado:
+
+- Um único underscore (_atributo) é apenas uma convenção: indica que o atributo é "interno" e não deveria ser acessado diretamente fora da classe. Mas nada impede o acesso.
+
+- Dois underscores (__atributo) ativam o *name mangling*: o interpretador altera o nome do atributo internamente para incluir o nome da classe (ex.: _Classe__atributo). Isso dificulta o acesso externo e evita colisões de nomes em herança.
+
+Ou seja:
+- _atributo → apenas convenção de privacidade.
+- __atributo → proteção mais forte via name mangling.
 

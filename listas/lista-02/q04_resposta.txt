@@ -1,6 +1,6 @@
 Lista 02 — Questão 04: Escopo — LEGB
-Aluno: (seu nome)
-Data:  (data)
+Aluno: (Leonardo Tupinambá)
+Data:  (27/05/2026)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ENUNCIADO:
@@ -21,6 +21,12 @@ Explique a regra de escopo (LEGB) que determina cada resultado.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
-
 (escreva aqui com suas próprias palavras)
+Python busca na ordem L > E > G > B
+Logo, lê primeiro a interna, depois a externa e por fim a Global;
+(a) imprime: enclosing
+(b) imprime: enclosing
+(c) imprime: global
+
+
 

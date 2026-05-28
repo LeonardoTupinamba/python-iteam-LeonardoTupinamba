@@ -1,6 +1,6 @@
 Lista 02 — Questão 01: Rastreamento — Lista e Dicionário
-Aluno: (seu nome)
-Data:  (data)
+Aluno: (Leonardo Tupinambá)
+Data:  (27/05/2026)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ENUNCIADO:
@@ -17,5 +17,9 @@ Depois execute e confirme.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
 
-(escreva aqui com suas próprias palavras)
+Dados = {"Nome": "Ana", "notas": [8.0, 7.5, 9.0, 6.5], "media": 7.75}
+Média = 7.75
+Chaves = ["nome", "notas", "media"]
+
+
 

@@ -1,6 +1,6 @@
 Lista 02 — Questão 02: Escolha da Estrutura
-Aluno: (seu nome)
-Data:  (data)
+Aluno: (Leonardo Tupinambá)
+Data:  (27/05/2026)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ENUNCIADO:
@@ -13,6 +13,21 @@ Para cada cenário, indique a estrutura mais adequada (list/tuple/dict/set) e ju
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUA RESPOSTA:
-
 (escreva aqui com suas próprias palavras)
+
+a) Tuplas (tuple)
+Coordenadas são imutáveis ​​por natureza: a cidade não se move. A (tuple)comunicação essa intenção não é do próprio tipo — qualquer tentativa de alteração dos valores gera erro, o que é uma proteção, não uma limitação.
+
+b) Conjuntos (set)
+Duas características para (set) resolver o problema diretamente: sem duplicatas por definição (inserir o mesmo CPF duas vezes não muda nada) e buscar em O(1) via hash. Uma lista exigia percorrer todos os elementos de cada verificação — inaceitável com volume alto.
+
+c) Dicionários (dict)
+O relacionamento é explicitamente de chave → valor , que é exatamente o que o (dict) modelo. Procure também em O(1). Qualquer outra estrutura forçaria a gambiarra: com lista, você precisaria de dois índices sincronizados, ou que quebrasse a primeira inserção fora de ordem.
+
+d) Listas (list)
+Aqui a ordem importante (cronologia das avaliações) e a coleção cresce — dois critérios que apontam diretamente para (list). O (set) descartaria duplicatas (dois 7.0 viraria um só). A (tuple) impediria o .append(). Você (dict) exigiria inventar chaves artificiais como {"prova1": 8.0}.
+
+e) Tuplas (tuple)
+Somente tipos hasháveis ​​podem ser chaves de dicionário — e (list) não são hasheáveis. A (tuple), por ser imutável, é. Além disso, o valor é fixo e nunca deveria mudar, então a imutabilidade da (tuple) é semanticamente correta aqui.
+
 
