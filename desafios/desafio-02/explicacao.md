@@ -7,22 +7,22 @@
 
 ## O que meu programa faz
 
-_(O meu programa calcula o IMC -Índice de Massa Corporal, ele solicita o nome da pessoa, o peso e a altura. E e seguida mostra o resultado do IMC)_
+_(O meu programa calcula o IMC -Índice de Massa Corporal, ele solicita o nome da pessoa, o peso e a altura. E em seguida mostra o resultado do IMC)_
 
 ---
 
 ## Resposta à Pergunta Obrigatória
 
-> Por que é necessário usar `float()` ao capturar peso e altura com `input()`? O que aconteceria se usássemos `int()` para a altura `1.75`?
+> Por que é necessário usar `float()` ao capturar peso e altura com `input()`? O que aconteceria se usássemos `int()` para a altura `1.71`?
 
 _(A função `input()` sempre retorna uma "string" — texto puro, sem tipo numérico. Para fazer cálculos, é preciso converter esse texto para um número.)_
 
 `int()` não sabe interpretar o ponto decimal — ele espera apenas dígitos (`0`–`9`). Como `"1.75"` contém um ponto, a conversão falha antes mesmo de o cálculo acontecer.
 
-Peso e altura são grandezas "contínuas" (raramente valores redondos exatos), por isso `float()` é a escolha correta: ele aceita tanto `"86"` quanto `"86.5"` e `"1.75"` sem erros.
+Peso e altura são grandezas "contínuas" (raramente valores redondos exatos), por isso `float()` é a escolha correta: ele aceita tanto `"86"` quanto `"86.5"` e `"1.71"` sem erros.
 
 ---
 
 ## Dificuldades encontradas
 
-_(Opcional: o que foi difícil? O que você pesquisou para resolver?)_
+_(A dificuldade sempre é montar a lógica e escrever o código, mas com pesquisa a gente chega lá.)_

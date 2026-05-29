@@ -13,4 +13,13 @@ Leia a classe ContaBancaria do enunciado e responda SEM executar:
 SUA RESPOSTA:
 
 (escreva aqui com suas próprias palavras)
+a)
+"saldo" como variável local → não guarda estado, sempre reinicia.
+"self.saldo" como atributo da instância → mantém o saldo atualizado e consistente entre operações.
+
+b)
+Acontece um erro.
+Erro: Saldo insuficiente para saque.
+
+c)
 

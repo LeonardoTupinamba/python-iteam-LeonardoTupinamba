@@ -20,12 +20,12 @@ Curso: Capacitação em Desenvolvimento Full Stack | 2026
 
 ## Identificação
 
-| Campo | Preenchimento |
-|---|---|
-| **Nome completo** | _(preencha aqui)_ |
-| **Turma** | Vespertino 2026 |
-| **E-mail** | _(preencha aqui)_ |
-| **GitHub** | @_(seu usuário)_ |
+| Campo             | Preenchimento                                                                |
+| ----------------- | ---------------------------------------------------------------------------- |
+| **Nome completo** | _(Leonardo Tupinambá)_                                                       |
+| **Turma**         | Vespertino 2026                                                              |
+| **E-mail**        | _(leonardo_tupinamba@hotmail.com)_                                           |
+| **GitHub**        | @_(https://github.com/LeonardoTupinamba/python-iteam-LeonardoTupinamba.git)_ |
 
 ---
 
@@ -68,15 +68,15 @@ python-iteam-SEUNOME/
 
 ## Composição da Nota Final
 
-| Componente | Peso | Instrumento |
-|---|---|---|
-| A1 — Desafios Diários (10 desafios) | 25% | Este repositório |
-| A2 — Listas de Consolidação (2 listas) | 25% | Este repositório |
-| A3 — Projeto Integrador | 25% | Este repositório |
-| A4 — Provas Presenciais | 25% | Em sala |
+| Componente                             | Peso | Instrumento      |
+| -------------------------------------- | ---- | ---------------- |
+| A1 — Desafios Diários (10 desafios)    | 25%  | Este repositório |
+| A2 — Listas de Consolidação (2 listas) | 25%  | Este repositório |
+| A3 — Projeto Integrador                | 25%  | Este repositório |
+| A4 — Provas Presenciais                | 25%  | Em sala          |
 
 **Aprovação:** Média ≥ 7,0 + Frequência ≥ 75%
 
 ---
 
-*Boa Vista, RR — ITEAM 2026*
+_Boa Vista, RR — ITEAM 2026_
